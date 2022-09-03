@@ -20,9 +20,9 @@ async def sng(bot, message):
           await mee.delete()
           try:
             await mee.delete()
-            await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs ", url = f"t.me/dk_botx")]]))
+            await bot.send_message(chat_id, text = rpl, reply_to_message_id = message.message_id, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs ", url = f"t.me/ckflicks")]]))
           except Exception as e:                            
-             await message.reply_text(f"I Can't Find A Song With ```{song}```", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/dk_botx")]]))
+             await message.reply_text(f"I Can't Find A Song With ```{song}```", quote = True, reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url = f"t.me/ckflicks")]]))
 
 
 
@@ -35,5 +35,5 @@ def lyrics(song):
         fin = search(song)
         text = f'🎶 Successfully Extracted Lyrics Of {song} 🎶\n\n'
         text += f'`{fin["lyrics"]}`'
-        text += '\n\n\n𝖳𝖾𝖺𝗆 @DK_BOTx'
+        text += '\n\n\n𝖳𝖾𝖺𝗆 @ckflicks'
         return text
