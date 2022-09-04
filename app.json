@@ -1,5 +1,5 @@
 {
-    "name": "Tovino Bot V3",
+    "name": "chat redirect bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -17,8 +17,8 @@
       "Redirect Bot",
       "Tovino Bot"
     ],
-    "website": "https://github.com/DKBOTx/TovinoBotV3",
-    "repository": "https://github.com/DKBOTx/TovinoBotV3",
+    "website": "https://github.com/Kichuprobotz/file-redirect-bot",
+    "repository": "https://github.com/Kichuprobotz/file-redirect-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
